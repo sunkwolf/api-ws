@@ -22,7 +22,7 @@ const main = async () => {
         await bot.sendMessage(phone, message, {
             media: mediaUrl
         })
-        res.end('esto es una prueba')
+        res.end('Mensaje enviado con exito!')
     }))
     
     
